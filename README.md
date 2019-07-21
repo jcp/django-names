@@ -1,8 +1,9 @@
 # Names
 
-[![image](https://img.shields.io/pypi/v/django-names.svg)](https://pypi.org/project/django-names/)
-[![image](https://img.shields.io/pypi/pyversions/django-names.svg)](https://pypi.org/project/django-names/)
-[![codecov.io](https://codecov.io/github/jcp/django-names/coverage.svg?branch=master)](https://codecov.io/github/jcp/django-names)
+[![pypi](https://img.shields.io/pypi/v/django-names.svg)](https://pypi.org/project/django-names/)
+[![pypi](https://img.shields.io/pypi/pyversions/django-names.svg)](https://pypi.org/project/django-names/)
+[![codecov](https://codecov.io/gh/jcp/django-names/branch/master/graph/badge.svg)](https://codecov.io/gh/jcp/django-names)
+[![Build Status](https://travis-ci.org/jcp/django-names.svg?branch=master)](https://travis-ci.org/jcp/django-names)
 
 Names is a reusable app for Django that provides mixins, models and form fields
 to store a full name and its individual components. The following name
