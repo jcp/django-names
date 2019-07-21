@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.md
+include Pipfile
+include Pipfile.lock
+include requirements/ *.txt
+global-exclude __pycache__
+global-exclude *.py[co]

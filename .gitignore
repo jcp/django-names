@@ -1,0 +1,11 @@
+*.db
+*.egg-info
+*.pyc
+
+.DS_Store
+.coverage
+.pytest_cache
+.tox
+
+build
+dist

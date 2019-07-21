@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = ">=19.3b0"
+coverage = ">=4.5.3"
+django = ">=2.2.3"
+flake8 = ">=3.7.8"
+isort = ">=4.3.21"
+pytest = ">=5.0.1"
+pytest-cov = ">=2.7.1"
+tox = ">=3.13.2"
+twine = ">=1.11.0"
+wheel = ">=0.30.0"
+
+[packages]
+nameparser = ">=1.0.4"
+
+[pipenv]
+allow_prereleases = true
