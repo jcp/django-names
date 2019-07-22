@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import shutil
 import sys
 
 from io import open
@@ -11,6 +12,9 @@ from setuptools import find_packages, setup
 if sys.argv[-1] == "publish":
     os.system("python setup.py sdist bdist_wheel")
     os.system("twine upload dist/*")
+    shutil.rmtree("dist")
+    shutil.rmtree("build")
+    shutil.rmtree("django_names.egg-info")
     sys.exit()
 
 here = os.path.abspath(os.path.dirname(__file__))
