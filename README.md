@@ -129,7 +129,8 @@ class User(models.Model):
 ```
 
 ```bash
->>> name = User.objects.create(full="Carol Susan Jane Danvers")
+>>> from names.models import Name
+>>> name = Name.objects.create(full="Carol Susan Jane Danvers")
 >>> User = User.objects.create(name=name)
 >>> user.name.full
 'Carol Susan Jane Danvers'
