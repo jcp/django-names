@@ -90,9 +90,9 @@ individual components.
 >>> from names.models import Name
 >>> name = Name.objects.create(full="Anthony Edward Stark (Tony)")
 >>> name
-<Name: Sir Arthur Charles Clarke>
+<Name: Anthony Edward Stark (Tony)>
 >>> name.full
-"Anthony Edward Stark (Tony)'
+'Anthony Edward Stark (Tony)'
 >>> name.title
 ''
 >>> name.first
@@ -111,7 +111,7 @@ When you update an individual name component, the full name updates
 automatically when the instance is saved.
 
 ```bash
->>> name.nickname = 'Iron Man'
+>>> name.nickname = "Iron Man"
 >>> name.save()
 >>> name.full
 'Anthony Edward Stark (Iron Man)'
