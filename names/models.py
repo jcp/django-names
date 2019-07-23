@@ -7,3 +7,4 @@ class Name(NameModelMixin):
     """
     A name parsed into its individual components.
     """
+    pass
