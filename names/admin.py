@@ -5,4 +5,6 @@ from django.contrib import admin
 from .models import Name
 
 
-@admin.site.register(Name)
+@admin.register(Name)
+class NameAdmin(admin.ModelAdmin):
+    pass
